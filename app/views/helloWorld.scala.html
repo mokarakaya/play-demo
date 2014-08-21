@@ -1,0 +1,15 @@
+@(name: String, age:Int)
+
+@main("Welcome to Play") {
+
+    <html>
+    	<head></head>
+    	<body>
+    	@for(i <-0 to 2){
+    		<p>
+    			Hello <b> @name</b>, you are <b>@age</b> years old
+    		</p>
+    	}
+    	</body>
+    </html>
+}
